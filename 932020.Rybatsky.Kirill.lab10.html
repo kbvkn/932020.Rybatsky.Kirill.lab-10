@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="932020.Rybatsky.Kirill.lab10.css" />
+    <meta charset="utf-8">
+    <title> Frontend Task №10 </title>
+    <script src="932020.Rybatsky.Kirill.lab10.js"></script>
+</head>
+
+<body>
+    <div id="curtain" onclick="upCurtain()"></div>
+    <img src="magican.jpg" id="magican">
+    <img src="hat.png" id="hat">
+    <img src="lamp-top.png" id="lamp-top" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+    <img src="lamp-leg.png" id="lamp-leg" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+    <img src="lamp-switcher.png" id="lamp-switcher">
+    <div id="light" class="lightoff"></div>
+    <img src="rabbit.png" id="rabbit" onclick="showPigeon()">
+    <img src="pigeon.png" id="pigeon" onclick="showRabbit()">
+</body>
